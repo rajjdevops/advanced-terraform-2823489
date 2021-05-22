@@ -12,8 +12,8 @@ node {
     }
     stage('Backend-Init') {
         // Initialize the Terraform configuration
-        dir('03_01_remotestate/remote_resources') {
-            sh script: '../../terraform init -input=false'
+        dir('03_01_remotestate') {
+            sh script: '../terraform init -input=false'
         }
         
     }
