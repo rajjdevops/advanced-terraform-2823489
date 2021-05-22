@@ -1,13 +1,9 @@
 # //////////////////////////////
 # VARIABLES
 # //////////////////////////////
-variable "aws_access_key" {
- default = "AKIAWJ4O7SNF4DOK4FTB"
-}
+variable "aws_access_key" {}
 
-variable "aws_secret_key" {
-  default = "X2bbTrzsQkgEhNgBnzX9Exe3jlZ2cI7QiKyN8GSE"
-}
+variable "aws_secret_key" {}
 
 variable "region" {
   default = "us-east-2"
